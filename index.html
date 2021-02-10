@@ -4,24 +4,60 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JIKU | Systemhaus</title>
+  <title>JIKU | Leistungen</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-  <div class="navbar">
-    <div class="container flex">
-      <h1 class="logo">JIKU</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html" active>Systemhaus</a></li>
-          <li><a href="karriere.html">Ausbildung</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="social.html">Social Responsibility</a></li>
-        </ul>
-      </nav>
+<div class="navbar">
+  <a href="/">Startseite</a>
+  <div class="subnav">
+    <button class="subnavbtn">Leistungsübersicht <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="leistungen.html#service">IT-Service</a>
+      <a href="leistungen.html#serverandstorage">Server und Storage</a>
+      <a href="leistungen.html#cloudhosting">Cloud-Hosting</a>
+      <a href="leistungen.html#infrastructure">IT-Infrastructure</a>
+      <a href="leistungen.html#beratung">IT-Beratung</a>
     </div>
-  </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn">Über JIKU <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="about.html#history">Geschichte</a>
+    </div>
+  </div> 
+  <a href="https://oje.ooo" target="_blank" rel="noopener noreferrer">Unser Blog</a>
+  <div class="subnav">
+    <button class="subnavbtn">Karriere <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="karriere.html#ausbildung">Ausbildung</a>
+      <a href="karriere.html#meister">Meister Ausbildung</a>
+    </div>
+  </div>   
+</div>
+  <main>
+    <section id="frontpage">
+      <div class="container">
+        <div class="service-text">
+          <h1></h1>
+          <h5>IT-Solutions und Expertise in unserem Systemhaus</h5>
+          <ul>
+            <li>Business IT-Solutions</li>
+            <li>Public IT-Solutions</li>
+            <li>Industrie 4.0-IT-Solutions (smart factory)</li>
+            <li>Digital Workspace-Solutions</li>
+            <li>DevOPS Solutions</li>
+            <li>Communication & Collaboration Solutions</li>
+            <li>Financial Solutions</li>
+            <li>Remarketing Solutions</li>
+          </ul>          
+        </div>
+        <button class="btn leistungen"><a href="./leistungen.html">Infos</a></button>
+      </div>
+    </section>
+
+  </main>
 
   <div class="footer flex">
     ©2021 - BRIMO, ENDERS, FÄRBER, OJE, ÖSTERREICHER
