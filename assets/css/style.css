@@ -39,7 +39,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color:  rgba(0, 0, 255, 0.455);    /* color of the scroll thumb */
+  background-color: var(--clr-blue);    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
   border: 2px solid black;  /* creates padding around scroll thumb */
 }
