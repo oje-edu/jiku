@@ -404,18 +404,47 @@ tr.blue {
 
 section#history {
   height: 100vh;
-  max-width: 772px;
-  margin-left: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;  
+  /* max-width: 772px; */
+  margin-left: 50px;  
+}
+section#history, h1 {
+text-align: center; 
 }
 
 section#social {
-  /* height: 100vh; */
-  max-width: 772px;
+  height: 100vh;
+  /* max-width: 772px; */
   margin-left: 50px;  
 }
+section#social, h1, h2, h3 {
+  text-align: center; 
+}
+section#social2 {
+  height: 100vh;
+  /* max-width: 772px; */
+  margin-left: 50px;  
+}
+section#social2, h1, h2, h3 {
+  text-align: center; 
+}
+section#social3 {
+  height: 100vh;
+  /* max-width: 772px; */
+  margin-left: 50px;  
+}
+section#social3, h1, h2, h3 {
+  text-align: center; 
+}
+
+section#management {
+  height: 100vh;
+  /* max-width: 772px; */
+  margin-top:100px;
+}
+section#management, h1, h2, h3 {
+  text-align: center;
+}
+
 
 #page-container {
   position: relative;
@@ -436,11 +465,13 @@ section#social {
   height: 2.5rem; 
   font-size: 0.5em; 
   background: transparent;    
-
+  color: black;
   padding: 10px 0 0 0;
 }
 #footer a {
   padding: 0 2.5px;
+  text-decoration: none;
+  color: black;
 }
 
 .fmotto {
