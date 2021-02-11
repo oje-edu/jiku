@@ -34,7 +34,7 @@ header {
 }
 
 .frontpagebg {
-  height: 100vh;
+  height: 100%;
   background-image: url('../images/frontbg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -410,33 +410,11 @@ section#history {
   align-items: center;  
 }
 
-/* #about {
-  max-width: 772px;
-  margin-left: 50px;
-} */
-
 section#social {
   /* height: 100vh; */
   max-width: 772px;
   margin-left: 50px;  
 }
-/* 
-#social1 {
-  max-width: 772px;
-  margin-left: 50px;
-
-}
-
-#social2 {
-  max-width: 772px;
-  margin-left: 50px;
-}
-
-#social3 {
-  max-width: 772px;
-  margin-left: 50px;
-} */
-
 
 #page-container {
   position: relative;
