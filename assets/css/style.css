@@ -25,23 +25,6 @@ body {
   background: var(--clr-bg);
   color: var(--clr-blue);
   line-height: 1.6;
-
-  scrollbar-width: thin;          /* "auto" or "thin" */
-  scrollbar-color: deeppink lightgoldenrodyellow;   
-}
-
-body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
-}
-
-body::-webkit-scrollbar-track {
-  background:rgb(231, 46, 117);        /* color of the tracking area */
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: var(--clr-blue);    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 2px solid black;  /* creates padding around scroll thumb */
 }
 
 header {
@@ -578,5 +561,25 @@ section#social3 {
     display: block;
     width: 100%;
     text-align: left;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  body {
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: deeppink lightgoldenrodyellow;   
+  }
+  body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+
+  body::-webkit-scrollbar-track {
+    background:var(--clr-blue);        /* color of the tracking area */
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: deeppink;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 2px solid black;  /* creates padding around scroll thumb */
   }
 }
