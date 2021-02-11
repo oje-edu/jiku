@@ -19,6 +19,8 @@
 }
 
 body {
+  width: 100%;
+  height: 100%;
   font-family: 'Quicksand', sans-serif;
   background: var(--clr-bg);
   color: var(--clr-blue);
@@ -32,6 +34,7 @@ header {
 }
 
 .frontpagebg {
+  height: 100vh;
   background-image: url('../images/frontbg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -195,8 +198,8 @@ img {
 }
 
 .container {
-  max-width: 1100px;
-  width: auto;
+  max-width: 772px;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -206,10 +209,13 @@ img {
 }
 
 .button {
-  margin-top: 10px;
   position: relative;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);  
   width: 50px;
   height: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;  
 }
 i {
   position: absolute;
@@ -305,25 +311,25 @@ section#service {
   background-size: cover;
 }
 
-section#frontpage2 {
-  /* max-width: 772px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;  
+section#frontpage1 {
   width: auto;
-  height: 85vh;
-  background-size: cover;
+  text-align: right;
+}
+section#frontpage2 {
+  width: auto;
+  text-align: center;
 }
 
 .service-text {
-  
-  padding: 50px;
-  text-align: left;
+  padding-top: 10px;
+  line-height: 1.8;
   background: var(--clr-blue);
   color: var(--clr-text);
   border: none;
   border-radius: 16px;
+}
+.service-text ul {
+  list-style: none;
 }
 
 section#serverandstorage {
@@ -443,9 +449,34 @@ section#social {
 
 #footer {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  text-align: center;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;            /* Footer height */
+  height: 2.5rem; 
+  font-size: 0.6em;     
+  padding-top: 10px;      /* Footer height */
+}
+
+.fmotto {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items:center;  
+  height: 40px;
+  background: lightsteelblue;
+  color: var(--clr-blue);
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.motto-text span {
+  font-family: 'Monoton';
+  font-size: 1.2em;
+  font-stretch: extra-expanded;
 }
 
 #topBtn {
