@@ -2,14 +2,14 @@
 
 
 :root {
-  --clr-blue: rgba(0, 0, 255, 0.555);
+  --clr-blue: rgba(0, 0, 255, 0.455);
   --clr-pinky: rgba(252, 56, 203, 0.747);
 
 
   --clr-text: linen;
   --clr-purple: indigo;
 
-  --clr-bg: rgb(240, 227, 227);
+  --clr-bg: transparent
 }
 
 * {
@@ -34,7 +34,8 @@ header {
 }
 
 .frontpagebg {
-  height: 100%;
+  width: auto;
+  height: 90vh;
   background-image: url('../images/frontbg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
