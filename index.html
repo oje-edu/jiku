@@ -84,7 +84,14 @@
             <li>Financial Solutions</li>
             <li>Remarketing Solutions</li>
           </ul>
-          <button class="btn leistungen"><a href="./leistungen.html">Infos</a></button>         
+          <a href="./leistungen.html">
+          <div class="button">            
+            <i class="fas fa-info"></i>
+              <div class="blurred" >
+                <span></span><span></span>
+              </div>            
+          </div>   
+          </a>        
         </div>
       </div>
     </section>
@@ -94,7 +101,20 @@
     <a href="./impressum">Impressum</a> |
     <a href="./contact">Kontakt</a>
   </footer>
-  
+  <svg>
+    <defs>
+      <filter id='goo'>
+      <feGaussianBlur in='SourceGraphic' 
+      stdDeviation='10' result='name'/>
+        <feColorMatrix in='name' mode='matrix'
+            values='1 0 0 0 0
+                    0 1 0 0 0 
+                    0 0 1 0 0
+                    0 0 0 30 -15 ' result='aab' />
+        <feBlend in='SourceGraphic' in2='aab' />
+      </filter>
+    </defs>
+  </svg>
   <script src="./assets/js/script.js"></script>
 </body>
 </html>
