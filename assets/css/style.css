@@ -432,15 +432,20 @@ section#social {
 } */
 
 
-.footer {
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-  height: 18px;
+#page-container {
   position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+#footer {
+  position: absolute;
   bottom: 0;
-  font-size: 0.7em;
-  background: var(--clr-bg);
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
 }
 
 #topBtn {
